@@ -1,0 +1,133 @@
+.cart {
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3rem;
+  margin: auto;
+
+  .titulo {
+    color: #773a8b;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+
+  .Cart-Products {
+    width: 65%;
+
+    .carrinho-produto {
+      margin-top: 7rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      .separacao1,
+      .separacao2 {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+      }
+
+      .separacao1 {
+        img {
+          width: 20rem;
+          height: 20rem;
+        }
+
+        .produto-carrinho-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+
+          .produto-nome,
+          .produto-categoria,
+          .produto-preco {
+            font-size: 2.2rem;
+            font-weight: 300;
+          }
+
+          .produto-vendedor {
+            font-size: 1.4rem;
+            font-weight: 300;
+          }
+        }
+      }
+
+      .separacao2 {
+        align-items: center;
+        p {
+          font-size: 2.2rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .Cart-Resumo {
+    flex-grow: 1;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .precinhos {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 17rem;
+
+      .semititulo {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #4b4b4b;
+      }
+
+      .precofrete {
+        font-size: 1.7rem;
+        font-weight: 400;
+      }
+    }
+
+    .Rua {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    .CEP {
+      width: 44rem;
+      height: 3rem;
+      display: flex;
+      flex-direction: row;
+      border: 1px solid #707070;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+
+      p {
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+
+      input {
+        border: none;
+        outline: none;
+      }
+    }
+
+    button {
+      width: 44rem;
+      height: 4rem;
+      font-size: 1.8rem;
+      color: white;
+      text-align: center;
+      font-weight: 300;
+      border-radius: 3.5rem;
+      background: linear-gradient(45deg, #d175f1, #773a8b);
+      outline: none;
+      border: none;
+    }
+  }
+}

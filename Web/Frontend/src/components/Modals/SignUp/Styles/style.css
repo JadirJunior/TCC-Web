@@ -1,0 +1,103 @@
+.modal {
+  background-color: white;
+  width: 55rem;
+  height: 40rem;
+  outline: none;
+  border: 1px solid #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 4rem;
+}
+
+.overlay_modal {
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.top .close_button {
+  cursor: pointer;
+}
+
+.middle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 3rem;
+}
+
+.addadress {
+  margin-top: 6rem;
+  height: 15rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.addadress .input p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.addadress .input input {
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.addadress .acessar {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.addadress .acessar button {
+  background: linear-gradient(135deg, #c56ce4, #803f96);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  width: 100%;
+  height: 4rem;
+  border: none;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

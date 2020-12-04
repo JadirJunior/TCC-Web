@@ -1,0 +1,36 @@
+.searchbar {
+  height: 5.5rem;
+  width: 76rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.searchbar input {
+  height: 5.5rem;
+  width: 76rem;
+  border: solid 1px #7d3d92;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.searchbar input:focus {
+  outline: none;
+}
+
+.searchbar .icon {
+  position: relative;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  right: 6%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,185 @@
+.cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 3rem;
+  margin: auto;
+}
+
+.cart .titulo {
+  color: #773a8b;
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.cart .Cart-Products {
+  width: 65%;
+}
+
+.cart .Cart-Products .carrinho-produto {
+  margin-top: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cart .Cart-Products .carrinho-produto .separacao1,
+.cart .Cart-Products .carrinho-produto .separacao2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 1rem;
+}
+
+.cart .Cart-Products .carrinho-produto .separacao1 img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.cart .Cart-Products .carrinho-produto .separacao1 .produto-carrinho-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.cart .Cart-Products .carrinho-produto .separacao1 .produto-carrinho-info .produto-nome,
+.cart .Cart-Products .carrinho-produto .separacao1 .produto-carrinho-info .produto-categoria,
+.cart .Cart-Products .carrinho-produto .separacao1 .produto-carrinho-info .produto-preco {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.cart .Cart-Products .carrinho-produto .separacao1 .produto-carrinho-info .produto-vendedor {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.cart .Cart-Products .carrinho-produto .separacao2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart .Cart-Products .carrinho-produto .separacao2 p {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+.cart .Cart-Resumo {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cart .Cart-Resumo .precinhos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 17rem;
+}
+
+.cart .Cart-Resumo .precinhos .semititulo {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #4b4b4b;
+}
+
+.cart .Cart-Resumo .precinhos .precofrete {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.cart .Cart-Resumo .Rua {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.cart .Cart-Resumo .CEP {
+  width: 44rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 1px solid #707070;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.cart .Cart-Resumo .CEP p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.cart .Cart-Resumo .CEP input {
+  border: none;
+  outline: none;
+}
+
+.cart .Cart-Resumo button {
+  width: 44rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  border-radius: 3.5rem;
+  background: linear-gradient(45deg, #d175f1, #773a8b);
+  outline: none;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

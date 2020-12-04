@@ -1,0 +1,208 @@
+.OnProduct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 85vh;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 10rem;
+}
+
+.OnProduct a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.OnProduct .img-left {
+  width: 57rem;
+  height: 78rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.OnProduct .img-left img {
+  width: 47rem;
+  height: 58rem;
+}
+
+.OnProduct .line {
+  width: 2rem;
+}
+
+.OnProduct .content-right {
+  width: 74rem;
+  height: 78rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.OnProduct .content-right .top-box {
+  height: 8rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.OnProduct .content-right .top-box .categoriaProduct {
+  font-size: 1.8rem;
+  color: #565656;
+  font-weight: 300;
+}
+
+.OnProduct .content-right .top-box .nomeProduct {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.OnProduct .content-right .precoProduct {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.OnProduct .content-right .Cores {
+  height: 10rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.OnProduct .content-right .Cores .cor {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.OnProduct .content-right .Tamanho {
+  height: 12rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.OnProduct .content-right .Tamanho .box-tamanho {
+  width: 17.1rem;
+  height: 5.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.OnProduct .content-right .Tamanho .box-tamanho:hover {
+  border: solid 2px #7d3d92;
+}
+
+.OnProduct .content-right .Tamanho .box-tamanho p {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.OnProduct .content-right .Tamanho p {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.OnProduct .content-right .Qtde {
+  height: 10rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.OnProduct .content-right .Qtde .quantidadeProduct {
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.OnProduct .content-right .Adicionar {
+  width: 36.6rem;
+  height: 6.2rem;
+  background: linear-gradient(45deg, #d175f1, #773a8b);
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-weight: 300;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1.9rem;
+  border-radius: 3.5rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

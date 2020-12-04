@@ -1,0 +1,119 @@
+header {
+  height: 20vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header img {
+  height: 10.5rem;
+  width: 18rem;
+}
+
+header .imagem-pessoa {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 3.6rem;
+}
+
+header p {
+  font-size: 2.6rem;
+  font-weight: 300;
+  color: #7a3b8f;
+  cursor: pointer;
+}
+
+header .modal-user {
+  background-color: white;
+  width: 30rem;
+  height: 15rem;
+  outline: none;
+  border: 1px solid #7d3d92;
+  top: 15rem;
+  right: 28rem;
+  position: absolute;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .modal-user a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .modal-user .modal-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .modal-user .modal-right img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 5rem;
+}
+
+header .modal-user .modal-right p {
+  font-size: 2rem;
+  color: #773a8b;
+  text-align: center;
+}
+
+header .modal-user .modal-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .modal-user .modal-left p {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+header .overlay_modal-user {
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+/*# sourceMappingURL=style.css.map */

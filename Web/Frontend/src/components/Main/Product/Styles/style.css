@@ -1,0 +1,88 @@
+.produto {
+  height: 34rem;
+  width: 23rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0.2rem;
+  margin: 0 2rem 0 2rem;
+  position: relative;
+  -webkit-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  border: 1px solid #fff;
+}
+
+.produto:hover {
+  border: 1px solid #707070;
+}
+
+.produto .heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.produto .img-top-product {
+  width: 12.8rem;
+  height: 15.8rem;
+  margin: auto;
+}
+
+.produto .img-top-product img {
+  width: 12.8rem;
+  height: 15.8rem;
+}
+
+.produto .product_info {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 14rem;
+  text-align: center;
+}
+
+.produto .product_info .cimaproduto {
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.produto .product_info .titulo,
+.produto .product_info .categoria,
+.produto .product_info .preco {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.produto .product_info .vendedor {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #a8a8a8;
+}
+/*# sourceMappingURL=style.css.map */

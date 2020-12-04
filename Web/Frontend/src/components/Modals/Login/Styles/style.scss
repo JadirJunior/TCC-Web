@@ -1,0 +1,170 @@
+.modal_login {
+  background-color: white;
+  width: 55rem;
+  height: 70rem;
+  outline: none;
+  border: 1px solid #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 4rem;
+}
+
+.overlay_modal {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+
+  .close_button {
+    cursor: pointer;
+  }
+}
+
+.other_login {
+  height: 14rem;
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .google_login,
+  .facebook_login {
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #707070;
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 300;
+      margin: 0 0 0 1rem;
+    }
+  }
+}
+
+.transition {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .lines {
+    display: flex;
+    flex-direction: column;
+    height: 2rem;
+    justify-content: space-evenly;
+  }
+
+  p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #7a3b8f;
+  }
+}
+
+.login {
+  height: 28rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .email,
+  .senha {
+    p {
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+
+    .erro {
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: #c74848;
+    }
+
+    input {
+      width: 100%;
+      height: 4rem;
+      border: 1px solid #707070;
+      border-radius: 5px;
+      font-size: 1.6rem;
+      padding: 0 1rem 0 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .acessar {
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+
+    button {
+      cursor: pointer;
+      background: linear-gradient(135deg, #c56ce4, #803f96);
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 400;
+      width: 100%;
+      height: 4rem;
+      border: none;
+      border-radius: 5px;
+    }
+    p {
+      font-size: 1.6rem;
+      font-weight: 300;
+      color: #7a3b8f;
+      margin-top: 2rem;
+    }
+  }
+}
+
+.line {
+  margin: 2rem 0 2rem 0;
+}
+
+.final_modal {
+  font-size: 1.9rem;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  p {
+    display: flex;
+    flex-direction: row;
+    .cadastre_modal {
+      color: #7a3b8f;
+    }
+  }
+}

@@ -1,0 +1,141 @@
+.OnProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 85vh;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 10rem;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .img-left {
+    width: 57rem;
+    height: 78rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 47rem;
+      height: 58rem;
+    }
+  }
+
+  .line {
+    width: 2rem;
+  }
+
+  .content-right {
+    width: 74rem;
+    height: 78rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    .top-box {
+      height: 8rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .categoriaProduct {
+        font-size: 1.8rem;
+        color: #565656;
+        font-weight: 300;
+      }
+
+      .nomeProduct {
+        font-size: 3rem;
+        font-weight: 300;
+      }
+    }
+
+    .precoProduct {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+
+    .Cores {
+      height: 10rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .cor {
+        font-size: 2.4rem;
+        font-weight: 300;
+      }
+    }
+
+    .Tamanho {
+      height: 12rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .box-tamanho {
+        width: 17.1rem;
+        height: 5.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #000;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+          border: solid 2px #7d3d92;
+        }
+
+        p {
+          font-size: 1.8rem;
+          font-weight: 400;
+        }
+      }
+
+      p {
+        font-size: 2.4rem;
+        font-weight: 300;
+      }
+    }
+
+    .Qtde {
+      height: 10rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .quantidadeProduct {
+        font-size: 2.4rem;
+        font-weight: 300;
+      }
+    }
+
+    .Adicionar {
+      width: 36.6rem;
+      height: 6.2rem;
+      background: linear-gradient(45deg, #d175f1, #773a8b);
+      border: none;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-weight: 300;
+      justify-content: space-evenly;
+      font-size: 1.9rem;
+      border-radius: 3.5rem;
+      cursor: pointer;
+    }
+  }
+}

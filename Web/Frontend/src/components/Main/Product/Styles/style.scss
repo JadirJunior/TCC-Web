@@ -1,0 +1,65 @@
+.produto {
+  height: 34rem;
+  width: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.2rem;
+  margin: 0 2rem 0 2rem;
+  position: relative;
+  transition: border 0.2s ease-in-out;
+  border: 1px solid #fff;
+
+  &:hover {
+    border: 1px solid #707070;
+  }
+
+  .heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .img-top-product {
+    width: 12.8rem;
+    height: 15.8rem;
+    margin: auto;
+
+    img {
+      width: 12.8rem;
+      height: 15.8rem;
+    }
+  }
+
+  .product_info {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 14rem;
+    text-align: center;
+
+    .cimaproduto {
+      height: 5rem;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .titulo,
+    .categoria,
+    .preco {
+      font-size: 1.8rem;
+      font-weight: 300;
+    }
+
+    .vendedor {
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: #a8a8a8;
+    }
+  }
+}

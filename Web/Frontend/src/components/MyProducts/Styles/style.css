@@ -1,0 +1,137 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  height: 80vh;
+  width: 82%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .produto-pronto {
+  height: 34rem;
+  width: 23rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  border: 1px solid #fff;
+}
+
+main .produto-pronto:hover {
+  border: 1px solid #707070;
+}
+
+main .produto-pronto .img-top-product {
+  width: 12.8rem;
+  height: 15.8rem;
+  margin: auto;
+}
+
+main .produto-pronto .img-top-product img {
+  width: 12.8rem;
+  height: 15.8rem;
+}
+
+main .produto-pronto .product_info {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 14rem;
+  text-align: center;
+}
+
+main .produto-pronto .product_info .cimaproduto {
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .produto-pronto .product_info .titulo,
+main .produto-pronto .product_info .categoria,
+main .produto-pronto .product_info .preco {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+main .produto-pronto .product_info .vendedor {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #a8a8a8;
+}
+
+main .add-product {
+  height: 34rem;
+  width: 23rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+  border: 1px solid #fff;
+}
+
+main .add-product:hover {
+  border: 1px solid #707070;
+}
+
+main .add-product p {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a p {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
